@@ -391,14 +391,17 @@
   <section class="section-alt">
     <div class="container">
       <h2 class="section-title">Architecture</h2>
-      <img src="static/images/method/architecture.png" alt="Overall architecture" class="method-image">
-      <p class="content-text" style="font-size:1.05rem; color:var(--text-muted); text-align:center; margin-top:-16px;">
-        <strong style="color:var(--text-secondary)">Overall architecture.</strong> WorldCam converts user actions into camera poses in Lie algebra and conditions a progressive autoregressive video transformer on these camera poses for precise action control. Retrieved long-term memory latents and camera poses from the memory pool enforce 3D consistency of the generated world, while short-term memory with an attention sink stabilizes long-horizon generation.
+      <img src="static/images/method/architecture.png" alt="Overall architecture" class="method-image" style="margin-top:0;">
+      <p class="content-text" style="text-align:justify; margin-top:-16px;">
+        <strong style="color:var(--text-primary)">Overall architecture.</strong> WorldCam converts user actions into camera poses in Lie algebra and conditions a progressive autoregressive video transformer on these camera poses for precise action control. Retrieved long-term memory latents and camera poses from the memory pool enforce 3D consistency of the generated world, while short-term memory with an attention sink stabilizes long-horizon generation.
       </p>
       <h2 class="section-title" style="margin-top:60px;">Dataset</h2>
-      <img src="static/images/method/dataset.png" alt="Dataset samples and statistics" class="method-image" style="margin-top:40px;">
-      <p class="content-text" style="font-size:1.05rem; color:var(--text-muted); text-align:center; margin-top:-16px;">
-        <strong style="color:var(--text-secondary)"> Dataset samples and statistics:</strong> We collect 3,000 minutes of authentic human gameplay annotated with camera trajectories and textual descriptions. (a) Example gameplay frames annotated with camera trajectories, and text captions. (b) Distribution of video durations. (c) Distribution of linear velocities (v<sub>x</sub>, v<sub>y</sub>, v<sub>z</sub>). (d) Distribution of angular velocities (ω<sub>x</sub>, ω<sub>y</sub>, ω<sub>z</sub>).
+      <p class="content-text" style="text-align:justify; margin-bottom:16px;">
+        We will release open-licensed dataset from <a href="https://xonotic.org/" target="_blank" style="color:var(--accent-primary)">Xonotic</a> and <a href="https://unvanquished.net/" target="_blank" style="color:var(--accent-primary)">Unvanquished</a>, licensed under CC BY-SA 2.5 and GPL v3.
+      </p>
+      <img src="static/images/method/dataset.png" alt="Dataset samples and statistics" class="method-image" style="margin-top:0;">
+      <p class="content-text" style="text-align:justify; margin-top:-16px;">
+        <strong style="color:var(--text-primary)"> Dataset samples and statistics:</strong> We collect 3,000 minutes of authentic human gameplay annotated with camera trajectories and textual descriptions. (a) Example gameplay frames annotated with camera trajectories, and text captions. (b) Distribution of video durations. (c) Distribution of linear velocities (v<sub>x</sub>, v<sub>y</sub>, v<sub>z</sub>). (d) Distribution of angular velocities (ω<sub>x</sub>, ω<sub>y</sub>, ω<sub>z</sub>).
       </p>
     </div>
   </section>
