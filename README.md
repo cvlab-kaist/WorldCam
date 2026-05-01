@@ -56,7 +56,7 @@ We release gameplay recordings from two open-source games for research use:
 | Game | License | Folder |
 | --- | --- | --- |
 | [Xonotic](https://xonotic.org) | GPL v3 | `data_1/` |
-| [Unvanquished](https://unvanquished.net) | CC BY-SA 2.5 | `data_2/` (to be released) |
+| [Unvanquished](https://unvanquished.net) | CC BY-SA 2.5 | `data_2/` |
 
 ```bash
 # Download all
